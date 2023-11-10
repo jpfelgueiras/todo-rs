@@ -6,6 +6,17 @@ https://medium.com/@robjsliwa_71070/building-a-multi-tenant-to-do-server-in-rust
 
 https://medium.com/@robjsliwa_71070/building-a-multi-tenant-todo-server-in-rust-part-2-58e2ec137c87
 
+## Generate Token
+
+```
+cd genjwt
+cargo run -- --secret secret --tenant-id 1 --user-id 1
+```
+## Run 
+```
+JWT_SECRET=secret MEMSTORE_PATH=./data.json cargo watch -x run
+```
+
 # Part 3
 
 https://medium.com/@robjsliwa_71070/building-a-multi-tenant-to-do-server-in-rust-part-3-6a78c47f800d
