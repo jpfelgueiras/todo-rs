@@ -21,6 +21,13 @@ JWT_SECRET=secret MEMSTORE_PATH=./data.json cargo watch -x run
 
 https://medium.com/@robjsliwa_71070/building-a-multi-tenant-to-do-server-in-rust-part-3-6a78c47f800d
 
+## Run 
+
+```
+docker-compose run --service-ports --rm todo
+cargo watch -x run
+```
+
 # Part 4 
 
 https://medium.com/@robjsliwa_71070/crafting-cli-with-oauth-2-0-authentication-multi-tenant-todo-server-in-rust-series-eaa0af452a56
